@@ -1,8 +1,6 @@
 *{
   margin: 0;
 
-	/* background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png"); */
-
 }
 .intro{
   font-family: 'Raleway';
@@ -262,7 +260,7 @@ span{
  .logout{
   padding: 2vh 4vh;
   font-size: 1.5vh;
-  background-color: #ffd449;
+  background-color: #104911;
   box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.74);
  }
 }
