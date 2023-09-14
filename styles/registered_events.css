@@ -1,0 +1,15 @@
+.Welcome-sign{
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 8vh;
+  text-align: center;
+  margin-bottom: 5vh;
+  color:#104911 ;
+  margin-top: 2vh;
+}
+@media screen and (max-width:500px){
+  .Welcome-sign{
+    margin-top: 2vh;
+    font-size: 3vh;
+  }
+}

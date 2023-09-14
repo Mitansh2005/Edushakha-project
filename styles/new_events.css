@@ -1,0 +1,54 @@
+
+.container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 20vh;
+
+}
+.events{
+  width: 50vh;
+  cursor: pointer;
+}
+.Events-list{
+  width: 50vh;
+  margin-bottom: 10vh;
+  
+}
+.Events-list p{
+  width: 50vh;
+  font-family: 'Raleway';
+  font-size:3vh ;
+}
+.Welcome-sign{
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-size: 8vh;
+  text-align: center;
+  margin-bottom: 5vh;
+  margin-top: 2vh;
+  color: #104911;
+}
+@media  screen and (max-width:500px) {
+  body{
+    width:100%;
+    
+  }
+  .Welcome-sign{
+    font-size: 3vh;
+  }
+  .container{
+    margin-left:9vh ;
+    display: block;
+    overflow: hidden;
+  }
+  .events{
+    width:30vh;
+  }
+  .Events-list p{
+    width: 30vh;
+    font-size: 2vh;
+  }
+  .Welcome-sign{
+    margin-bottom: 2vh;
+  }
+}

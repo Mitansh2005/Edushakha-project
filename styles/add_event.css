@@ -1,0 +1,104 @@
+.box-body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  border: none;
+  border-radius: 5vh;
+  justify-content: center;
+  max-width: 50vh;
+  padding: 5vh;
+  background-color: #588b8b;
+
+}
+
+.box-container h2{
+  font-size: 7vh;
+  font-family: 'Raleway';
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 5vh;
+  color: whitesmoke;
+  
+}
+.box-container label{
+  font-family: 'Raleway';
+  font-weight: 600;
+  color: whitesmoke;
+  font-size: 3.2vh;
+  margin: 0.3vh;
+}
+
+
+.event_name,.description,.host,.date,.time{
+  font-size: 3vh;
+  font-family: 'Raleway';
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+
+  outline: none;
+  transition: box-shadow,transform 0.2s ease-in-out;
+
+}
+.event_name:hover,.description:hover,.host:hover,.date:hover,.time:hover{
+  box-shadow: 3px 4px 1px rgba(0, 0, 0, 0.559);
+  transform: scale(1.01);
+  outline: none;
+}
+.add-image{
+  width: 8vh;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  max-width: 30vh;
+  margin-top: 3vh;
+  margin-left: 6vh;
+  font-family: 'Raleway';
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(210, 255, 221);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition:   background-color,box-shadow,transform 0.4s ease-in-out;
+}
+.submit:hover{
+  box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.74);
+  transform: scale(1.07);
+  background-color: #ffd449;
+}
+@media  screen and (max-width:500px) {
+  .box-container{
+    max-width: 28vh;
+    height: 45vh;
+  }
+  .add-image{
+    width: 4vh;
+  }
+  .box-container h2{
+    font-size: 3.5vh;
+    margin-bottom: 2vh;
+  }
+  .event_name,.description,.host,.date,.time{
+    font-size:1vh;
+  }
+  .box-container label{
+    font-size:1.5vh;
+
+  }
+  .submit{
+    max-width: 12vh;
+    height: 4vh;
+    margin-left: 5vh;
+    box-shadow: 2px 3px 1px rgba(0, 0, 0, 0.74);
+
+  background-color: #ffd449;
+  }
+}
